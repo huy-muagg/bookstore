@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+
+# Files created by this set up:
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/

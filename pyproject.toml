@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "bookstore"
+version = "1.0.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+include = ["**/static/**/*", "**/templates/**/*"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4"
+flask = ">=3.0.2,<4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8,<9"
+black = ">=24.2.0,<25"
+isort = ">=5.13.1,<6"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
