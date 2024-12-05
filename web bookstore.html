@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Sách</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .book {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .book p {
+            color: #666;
+        }
+        .book button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .book button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cửa Hàng Sách</h1>
+    <div class="book-container">
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Sách 1">
+            <h2>Sách 1</h2>
+            <p>Giá: 100.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Sách 2">
+            <h2>Sách 2</h2>
+            <p>Giá: 150.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Sách 3">
+            <h2>Sách 3</h2>
+            <p>Giá: 200.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+    </div>
+</body>
+</html>
